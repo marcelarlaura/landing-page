@@ -67,6 +67,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: antiquewhite;
     
 }
 
@@ -88,7 +89,7 @@ li {
     font-weight: bolder;
 }
 
-.imageOne > button {
+.imageOne > button, button {
     background-color: rgb(218, 97, 218);
     font-weight: bolder;
 }
@@ -97,4 +98,61 @@ li {
     background-size:contain;
     background-repeat: no-repeat;
     width: 50%;
+}
+
+.main-content {
+    background-color: antiquewhite;
+    padding: 20px 30px;
+    margin-top: -5%;
+}
+
+.main-content > h2, h4 {
+    text-align: center;
+    font-family: 'Roboto Flex';
+    color: darkslategray;
+}
+
+.main-content > div {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    font-family: 'Roboto Flex';
+    flex-wrap: wrap;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 290px;
+}
+
+.section:nth-of-type(3) > div{
+    background-image: url('images/gym-595597_640.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.section:nth-of-type(1) > div{
+    background-image: url('images/workout-1931107_640.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.section:nth-of-type(2) > div{
+    background-image: url('images/woman-3236059_640.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.section > div {
+    border: 2px dotted rgb(218, 97, 218);
+    height: 200px;
+    width: 280px;
+    border-radius: 20%;
+}
+
+p {
+    letter-spacing: 0.1rem;
+    font-size: 10px;
 }
