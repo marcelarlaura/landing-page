@@ -30,6 +30,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: azure;
+    
 }
 
 li {
@@ -38,6 +39,8 @@ li {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 3%;
+    padding: 10px;
     
 }
 
@@ -54,6 +57,7 @@ li {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 5px 5px 5px rgb(238, 94, 94);
 }
 
 #logo > div > span {
@@ -92,6 +96,7 @@ li {
 .imageOne > button, button {
     background-color: rgb(218, 97, 218);
     font-weight: bolder;
+    border-radius: 8%;
 }
 .imageTwo {
     background-image: url('images/pexels-olly-868704.jpg');
@@ -171,4 +176,42 @@ p {
 
 .quote-container > p {
     font-size: 18px;
+}
+
+.contact-container {
+    background-color: antiquewhite;
+    padding: 80px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container > div {
+    display: flex;
+    gap: 50px;
+    align-items:center;
+    background-color:dodgerblue;
+    padding: 10px 30px;
+    border-radius: 2%;
+    font-family: 'Roboto Flex';
+    color: aliceblue;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.contact-container > div > button {
+    border: 1px solid aliceblue;
+    background-color: dodgerblue;
+    border-radius: 2%;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+
+footer {
+    background-color: darkred;
+    font-family: 'Roboto Flex';
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
 }
